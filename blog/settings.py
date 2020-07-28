@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]
 
+INSTALLED_APPS += ('django_summernote', )
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -126,5 +128,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIR = (os.path.join(BASE_DIR, 'static'),)
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+# Inlcuido para o funcionamento do SummerNote
+X_FRAME_OPTIONS = 'SAMEORIGIN'
