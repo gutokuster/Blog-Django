@@ -1,3 +1,5 @@
 from django.db import models
 
-# Create your models here.
+
+class Categorias(models.Model):
+    nome_cat = models.CharField(max=50)
