@@ -1,7 +1,4 @@
 # Blog-Django
 
-+ Blog simples desenvolvido utilizando Django
-
-++ Inicio: Jul/20
-
-+ Instalação MySQL, Bootstrap, Pillow, Django Summernotes.
++ Blog simples desenvolvido utilizando Django (jul20)
++ MySQL, Bootstrap, Pillow, Django Summernotes.
