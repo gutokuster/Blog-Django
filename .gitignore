@@ -1,3 +1,7 @@
+### Adicionados ###
+.vscode/
+downloaded/
+
 ### Django ###
 *.log
 *.pot
@@ -14,7 +18,6 @@ build/
 develop-eggs/
 dist/
 downloads/
-downloaded/
 eggs/
 .eggs/
 lib/
