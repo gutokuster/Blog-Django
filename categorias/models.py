@@ -1,5 +1,5 @@
 from django.db import models
 
 
-class Categorias(models.Model):
-    nome_cat = models.CharField(max=50)
+class Categoria(models.Model):
+    nome_cat = models.CharField(max_length=50)

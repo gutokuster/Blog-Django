@@ -81,9 +81,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'blog_django',
         'HOST': '127.0.0.1',
-        'PORT': '3360',
+        'PORT': '3306',
         'USER': 'root',
-        'PASSWORD': 'root',
+        'PASSWORD': '',
     }
 }
 
@@ -126,5 +126,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIR = (os.path.join(BASE_DIR, 'static'),)
-MEDIA_ROOT = os.path.join(BSE_DIR, 'media')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'

@@ -20,13 +20,13 @@ from django.conf.urls.static import static
 from django.contrib.messages import constants
 
 urlpatterns = [
-    path('', include(posts.urls),
+    path('', include('posts.urls')),
     path('admin/', admin.site.urls),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-MESSAGE_TAGS={
+MESSAGE_TAGS = {
     constants.ERROR: 'alert-danger',
     constants.WARNING: 'alert-warning',
     constants.DEBUG: 'alert-info',
